@@ -1,0 +1,51 @@
+﻿/* 
+	Create Time : 2014-07-22
+    Update Time : 2015-03-26
+    Author      : Trueland Development Department 
+*/
+	@charset "utf-8";
+
+
+	/* CSS REQUIRE */
+	
+	@import "bootstrap.css"; 	 	/* bootstrap Style */
+	@import "public.css";  			/* public Style */
+
+
+	/* ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞ 华丽的分割线 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞*/
+
+	/*
+		--------------------------
+		prompt 升级提示(IE6\7\8\) 
+		--------------------------
+	*/
+	
+	.prompt 						{
+										position: fixed;
+										left: 0;
+										top: 0;
+										width: 100%;
+										padding: 10px 0;
+										text-indent: 45px;
+										font-size: 16px;
+										font-family: "宋体";
+										background: url(../images/t.png) no-repeat 10px center #fff3ce;
+										color: #d48e00;
+										border: 1px solid #ffe69b;
+										z-index: 900;
+									}
+	
+	.prompt-close      			 	{
+					
+										width: 10px;
+										height: 10px;
+										position: absolute;
+										right: 10px;
+										top: 50%;
+										margin-top: -5px;
+										background: url(../images/closed.png) no-repeat center center;
+										cursor: pointer;
+									}
+									
+									
+									

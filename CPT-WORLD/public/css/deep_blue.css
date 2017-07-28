@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+
+a:hover{color:#1c62b0;}
+
+.nav  ul > li > a:hover,
+.nav .active > a,
+.nav  ul > li:hover > a {
+  background: #1c62b0;
+  color: #fff;
+  text-decoration: none;
+}
+/*color*/
+.c-title-3 span,.location a:hover,.slick-dots li.slick-active button:before,.m-case .title em,.m-product .title em,.m-news .title em,.m-news .nbox h3 a:hover,.newslist .col-xs-9 h3 a:hover,.location b{color:#1c62b0;}
+/*background*/
+.c-more,.paging .fontcolor,.paging a:hover,.prev-next:hover,.return a:hover,.pro-nav span a:hover, .pro-nav span.active a,.pro-nav-box .pro-btn .left-btn:hover,
+.pro-nav-box .pro-btn .right-btn:hover,.prolist .col-xs-4:hover p,#case p:hover,#case .col-xs-4:hover p,#case .c-big:hover p,.r-title,.joblist .col-xs-6 .jmore:hover, .c-massage li input[type="submit"] {background-color: #1c62b0;}
+
+.slick-dots li button:hover:before, .slick-dots li button:focus:before { outline: none; color: #3c79be;}/*浅*/
+.m-product .pimg i{background: url(../images/d_bg.png) repeat;}
+
+.m-news .m-newslist,.prolist .col-xs-4:hover .pimg1{border:1px solid #1c62b0;}
+.m-about .abox span,.detailed-ptitle span,.detailed-ptitle span{border-bottom-color: #1c62b0;}
+.location{background:url(../images/d_icon_10.jpg) no-repeat left 10px;}
+
+.sitemap ul li h2 a,.sitemap ul li h2 a:hover{color:#fff; background-color: #1c62b0; border:1px solid #1c62b0;}
